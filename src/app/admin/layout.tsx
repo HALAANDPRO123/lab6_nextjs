@@ -1,8 +1,9 @@
 "use client";
 import { ReactNode, useState } from "react";
 import { Layout, ConfigProvider, Spin } from "antd";
-import CustomHeader from "@/app/components/Header";
-import Sidebar from "@/app/components/Sidebar";
+import Sidebar from "../components/SideBar";
+import CustomHeader from "../components/Header";
+
 
 
 const { Content } = Layout;
